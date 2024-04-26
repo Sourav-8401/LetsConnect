@@ -1,0 +1,16 @@
+<div class="mainContainer d-flex flex-column justify-content-center align-items-center text-white container-lg   p-4">
+    <h2>LetsConnect</h2>    
+<h3 class="margin-auto l_text">Log in to your account</h3>
+    <p class="d_text">Don't have an account?<span class=" access"> <a routerLink="/signPage" class="access">Get access</a></span></p>
+    <form action="" [formGroup]="loginForm" class="d-flex flex-column" >
+        <label for="email">Email</label>
+        <input type="text" [formControl]="email" class="rounded" id="email">
+
+        <label for="password">Password</label>
+        <input type="password" [formControl]="password" class="rounded" id="password">
+
+        <button type="submit" (click)="login()" class="btn login bg-white ">Login</button>
+    </form>
+</div>
+<div class="adContainer"> 
+</div>

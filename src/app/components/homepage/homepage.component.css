@@ -1,0 +1,64 @@
+#startBtn{
+   background-color:  rgb(131 49 209);
+}
+.main{
+    margin-top: 8rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content:center ;
+}
+.slogan{
+    background-image: linear-gradient(179.1deg, #FFFFFF 0.77%, rgba(255, 255, 255, 0) 182.09%);
+    color: transparent;
+    background-clip: text;
+    text-align: center;
+    font-size: 3.75rem;
+    font-weight: 800;
+    line-height: 1;
+}
+.b_slogan{
+    text-align: center;
+    color: rgba(209, 213, 219, 0.804);
+    margin-top: 10px;
+}
+.start_btn{
+    margin-top: 3rem;
+    font-style: 500;
+}
+.myimage{
+    width: 80%;
+    margin-top: 102px;
+    border-radius: 22px;
+    position: relative;
+    color: transparent;
+}
+.back{
+ 
+    background: linear-gradient(
+      180deg,
+      #7C3AED 0%,
+      rgba(152, 103, 240, 0.984375) 1%,
+      rgba(237, 78, 80, 0.2) 100%);
+    height: 600px;
+    position: absolute;
+    width: 1024px;
+    filter: blur(160px);
+      /* position: relative; */
+      /* top: 130px; */
+}
+.imgContainer{
+     /* border: #7C3AED solid 4px; */
+     
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: fit-content;
+    position: relative;
+    width: fit-content;
+    margin-bottom: 6rem;
+    margin-top: 22px;
+    /* border: 5px solid white; */
+    align-items: center;
+}

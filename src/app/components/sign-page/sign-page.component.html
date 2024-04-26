@@ -1,0 +1,20 @@
+<div class="mainContainer d-flex flex-column justify-content-center align-items-center text-white container-lg   p-4">  
+    <h3 class="margin-auto l_text">Create a new account</h3>
+        <p class="d_text"> Have an account?<span> <a routerLink="/login" class="access">Login</a></span></p>
+        <form action="" [formGroup]="loginForm" class="d-flex flex-column" >
+            <label for="email">Username</label>
+            <input type="email" [formControl]="email" class="rounded text-white ps-2" id="email">
+            
+            <label for="email">Email</label>
+            <input type="email" [formControl]="email" class="rounded text-white ps-2" id="email">
+
+            <label for="password">Password</label>
+            <input type="password" [formControl]="password" class="rounded text-white ps-2" id="password">
+
+
+            <button type="submit" (click)="login()" class="btn login bg-white ">Sign up</button>
+            <button class="google"><img class="logoImg" src="assets/images/logo.png" alt="image">continue with Google</button>
+        </form>
+    </div>
+    <div class="adContainer"> 
+</div>

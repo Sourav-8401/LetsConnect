@@ -1,0 +1,16 @@
+.iconContainer{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(156 163 175);
+}
+hr{
+    color: rgb(156 163 175);
+}
+.ic{
+    font-size: 21px;
+    color: rgb(156 163 175);
+}
+.footerPara{
+    display: flex;
+    padding-top: 5px;
+}

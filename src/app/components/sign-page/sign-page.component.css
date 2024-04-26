@@ -1,0 +1,49 @@
+input{
+    background-color: #212838 ;
+    width: 20rem;
+    height: 2rem;
+    text-decoration: none;
+    border: none;
+    margin: 10px 0;
+}
+.l_text{
+    margin-top: 22px;
+}
+.mainContainer{
+    margin-top: 55px;
+    margin-bottom: 32px;
+}
+.d_text{
+    color: #ffffffc4;
+    font-size: 14px;
+}
+.login{
+    margin: 10px 0;
+    width: 20rem;
+}
+.login:hover{
+    color:#161d2d;
+    border:1px solid #9636df;
+}
+.access{
+    color: #9636df;
+    text-decoration: none;
+    margin-left:3px ;
+}
+.google{
+    background-color: #161d2d;
+    width: 20rem;
+    height: 2rem;
+    text-decoration: none;
+    border: none;
+    margin: 10px 0;
+    color: #fff;
+}
+.google:hover{
+    border-radius: 6px;
+    border:1px solid #333e56;
+}
+.logoImg{
+    width: 9%;
+    margin-right: 4px;
+}
